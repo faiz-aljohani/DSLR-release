@@ -172,6 +172,6 @@ for epoch in range(0, 1):
                 Scale1,Scale2,Scale3,res2,res3 = Retinex(Input)
 
 
-            save_image(Scale3.data, './data/result/%d.png' % (i + 1))
+            save_image(Scale3.data, f'./data/result/{i+1:03d}.png')
 
 
